@@ -64,7 +64,7 @@ main {
   }
   &:hover .color {
     @include transition(all .4s ease);
-    opacity: .3;
+    opacity: .2;
   }
   .color {
     background-color: $white;

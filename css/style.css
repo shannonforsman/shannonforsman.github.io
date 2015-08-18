@@ -210,7 +210,7 @@ main {
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
-    opacity: .3; }
+    opacity: .2; }
   .show.portfolio .color {
     background-color: #fff;
     position: absolute;
