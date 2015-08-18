@@ -1,0 +1,98 @@
+@media (max-width: 1060px) {
+  main {
+    width: 90%;
+  }
+  .header {
+    width: 90%;
+  }
+}
+
+@media (max-width: 850px) {
+  .about .third, .about .two-thirds {
+    width: 100%;
+    h2 {
+      text-align: left;
+    }
+  }
+  h1 {width: 200px; float: left; font-size: 24px;  }
+  h2 {width: 250px; float: left; font-weight: 300; margin-bottom: 8px;}
+  header {height: 170px;}
+  .header {
+    padding-top: 32px;
+    .title {width: 100%; float: left; padding: 0;}
+    nav {
+    width: 100%;
+    margin-top: 8px;
+    float: left;
+    text-align: left;
+    .content {
+      float: left;
+      margin-top: 16px;
+      padding: 0 48px 16px 0;
+      .close {top: 7px; }
+    }
+    a {
+      color: #484848;
+      margin-left: 0;
+      margin-right: 12px;
+      margin-left: 12px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+    p {
+      color: #484848;
+      font-weight: 500;
+
+    }
+  }
+  }
+  .project-info {
+    width: 90%;
+    left: 5%;
+  }
+  .item {height: 68px; margin-bottom: 8px}
+  .show.portfolio {height: 219px}
+  .third {width: 32%;}
+  .pipe {display: inline; color: #484848;}
+}
+
+@media (max-width: 650px) {
+  main {padding: 32px 0;}
+  .third.grid {
+    width:100%;
+    .item {
+      width: 18%;
+      margin-right: 2.5%;
+      margin-bottom: 12px;
+      height: 8  0px;
+      &:nth-child(5n) {
+        margin-right: 0;
+      }
+    }
+  }
+  .two-thirds {width:100%;}
+  .about {margin-bottom: 16px;}
+  .grid .item {height: 58px; margin-bottom: 8px;}
+  .header nav {
+    a {
+    color: #484848;
+    margin-left: 0;
+    margin-right: 6px;
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2em;
+    }
+    .content {
+      margin-top: 10px;
+      .close {
+        top: 2px;
+      }
+    }
+}
+}
