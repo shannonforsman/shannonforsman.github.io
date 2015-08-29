@@ -250,6 +250,17 @@ main {
 .pipe {
   display: none; }
 
+footer {
+  margin-top: 48px;
+  display: block;
+  clear: both;
+  width: 100%;
+  position: relative; }
+  footer p {
+    text-align: right;
+    padding: 36px 0;
+    font-size: 12px; }
+
 header {
   width: 100%;
   background-image: url("../images/mountains.jpg");
