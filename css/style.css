@@ -257,7 +257,7 @@ footer {
   width: 100%;
   position: relative; }
   footer p {
-    text-align: right;
+    text-align: left;
     padding: 36px 0;
     font-size: 12px; }
 
