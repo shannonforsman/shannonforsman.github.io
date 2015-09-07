@@ -425,16 +425,16 @@ header {
     .about .third h2, .about .two-thirds h2 {
       text-align: left; }
   h1 {
-    width: 200px;
+    width: 100%;
     float: left;
     font-size: 24px; }
   h2 {
-    width: 250px;
+    width: 100%;
     float: left;
     font-weight: 300;
     margin-bottom: 8px; }
   header {
-    height: 170px; }
+    height: 160px; }
   .header {
     padding-top: 32px; }
     .header .title {
@@ -502,11 +502,20 @@ header {
     margin-left: 6px;
     font-size: 14px;
     font-weight: 500; }
-  .header nav p {
+  .header nav p, .header nav .project-info p {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.2em; }
   .header nav .content {
     margin-top: 10px; }
     .header nav .content .close {
-      top: 2px; } }
+      top: 2px; }
+  .portfolio .project-info p {
+    font-size: 14px;
+    font-weight: 500; }
+  .resume-item {
+    width: 100%; }
+    .resume-item:first-child {
+      margin-bottom: 0; }
+      .resume-item:first-child p {
+        margin-bottom: 0; } }

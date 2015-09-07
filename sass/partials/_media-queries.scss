@@ -14,9 +14,9 @@
       text-align: left;
     }
   }
-  h1 {width: 200px; float: left; font-size: 24px;  }
-  h2 {width: 250px; float: left; font-weight: 300; margin-bottom: 8px;}
-  header {height: 170px;}
+  h1 {width: 100%; float: left; font-size: 24px;  }
+  h2 {width: 100%; float: left; font-weight: 300; margin-bottom: 8px;}
+  header {height: 160px;}
   .header {
     padding-top: 32px;
     .title {width: 100%; float: left; padding: 0;}
@@ -83,7 +83,7 @@
     font-size: 14px;
     font-weight: 500;
     }
-    p {
+    p, .project-info p {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.2em;
@@ -94,5 +94,18 @@
         top: 2px;
       }
     }
-}
+  }
+  .portfolio .project-info p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .resume-item {
+    width: 100%;
+    &:first-child {
+      margin-bottom: 0;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
