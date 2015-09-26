@@ -340,31 +340,31 @@ header {
       transition: all 0.3s ease; }
 
 .item[data-grid*='1'] {
-  background-image: url("../images/fire-tracker-thumb.jpg");
+  background-image: url("../images/cluster-thumb.jpg");
   background-size: cover; }
 
 .item[data-grid*='2'] {
-  background-image: url("../images/article-thumb.jpg");
+  background-image: url("../images/fire-tracker-thumb.jpg");
   background-size: cover; }
 
 .item[data-grid*='3'] {
-  background-image: url("../images/tea-shop-thumb.jpg");
+  background-image: url("../images/article-thumb.jpg");
   background-size: cover; }
 
 .item[data-grid*='4'] {
-  background-image: url("../images/sun-dial-thumb.jpg");
+  background-image: url("../images/tea-shop-thumb.jpg");
   background-size: cover; }
 
 .item[data-grid*='5'] {
-  background-image: url("../images/calculator-thumb.jpg");
+  background-image: url("../images/sun-dial-thumb.jpg");
   background-size: cover; }
 
 .item[data-grid*='6'] {
-  background-image: url("../images/tic-tac-toe-thumb.jpg");
+  background-image: url("../images/calculator-thumb.jpg");
   background-size: cover; }
 
 .item[data-grid*='7'] {
-  background-image: url("../images/reddit-thumb.jpg");
+  background-image: url("../images/tic-tac-toe-thumb.jpg");
   background-size: cover; }
 
 .item[data-grid*='8'] {
@@ -376,31 +376,31 @@ header {
   background-size: cover; }
 
 #item1 {
-  background-image: url("../images/fire-tracker.jpg");
+  background-image: url("../images/cluster.jpg");
   background-size: cover; }
 
 #item2 {
-  background-image: url("../images/article.jpg");
+  background-image: url("../images/fire-tracker.jpg");
   background-size: cover; }
 
 #item3 {
-  background-image: url("../images/tea-shop.jpg");
+  background-image: url("../images/article.jpg");
   background-size: cover; }
 
 #item4 {
-  background-image: url("../images/sun-dial.jpg");
+  background-image: url("../images/tea-shop.jpg");
   background-size: cover; }
 
 #item5 {
-  background-image: url("../images/calculator.jpg");
+  background-image: url("../images/sun-dial.jpg");
   background-size: cover; }
 
 #item6 {
-  background-image: url("../images/tic-tac-toe.jpg");
+  background-image: url("../images/calculator.jpg");
   background-size: cover; }
 
 #item7 {
-  background-image: url("../images/reddit.jpg");
+  background-image: url("../images/tic-tac-toe.jpg");
   background-size: cover; }
 
 #item8 {
