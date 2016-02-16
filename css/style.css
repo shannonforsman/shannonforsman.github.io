@@ -84,7 +84,8 @@ h2 {
   letter-spacing: 2px;
   font-weight: 600;
   text-align: right;
-  font-family: 'ubuntu'; }
+  font-family: 'ubuntu';
+  line-height: 1.4em; }
 
 h3 {
   font-family: 'lato';
