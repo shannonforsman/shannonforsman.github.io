@@ -162,7 +162,7 @@ main {
   margin: 0 auto; }
 
 .two-thirds {
-  width: 66%;
+  width: 66.66%;
   float: right;
   clear: right; }
   .two-thirds .show {
@@ -357,23 +357,23 @@ header {
   background-size: cover; }
 
 .item[data-grid*='5'] {
-  background-image: url("../images/sun-dial-thumb.jpg");
-  background-size: cover; }
-
-.item[data-grid*='6'] {
   background-image: url("../images/calculator-thumb.jpg");
   background-size: cover; }
 
-.item[data-grid*='7'] {
+.item[data-grid*='6'] {
   background-image: url("../images/tic-tac-toe-thumb.jpg");
   background-size: cover; }
 
-.item[data-grid*='8'] {
+.item[data-grid*='7'] {
   background-image: url("../images/slideshow-thumb.jpg");
   background-size: cover; }
 
-.item[data-grid*='9'] {
+.item[data-grid*='8'] {
   background-image: url("../images/background-thumb.jpg");
+  background-size: cover; }
+
+.item[data-grid*='9'] {
+  background-image: url("../images/reddit-thumb.jpg");
   background-size: cover; }
 
 #item1 {
@@ -393,23 +393,23 @@ header {
   background-size: cover; }
 
 #item5 {
-  background-image: url("../images/sun-dial.jpg");
-  background-size: cover; }
-
-#item6 {
   background-image: url("../images/calculator.jpg");
   background-size: cover; }
 
-#item7 {
+#item6 {
   background-image: url("../images/tic-tac-toe.jpg");
   background-size: cover; }
 
-#item8 {
+#item7 {
   background-image: url("../images/slideshow.jpg");
   background-size: cover; }
 
-#item9 {
+#item8 {
   background-image: url("../images/background.jpg");
+  background-size: cover; }
+
+#item9 {
+  background-image: url("../images/reddit.jpg");
   background-size: cover; }
 
 @media (max-width: 1060px) {
@@ -484,7 +484,7 @@ header {
       width: 18%;
       margin-right: 2.5%;
       margin-bottom: 12px;
-      height: 8 0px; }
+      height: 8  0px; }
       .third.grid .item:nth-child(5n) {
         margin-right: 0; }
   .two-thirds {
